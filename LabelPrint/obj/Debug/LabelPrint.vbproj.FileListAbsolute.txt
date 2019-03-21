@@ -19,6 +19,8 @@ C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\bin\Debug\La
 C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\bin\Debug\LabelPrint.xml
 C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\obj\Debug\LabelPrint.frmViewer.resources
 C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\obj\Debug\LabelPrint.Resources.resources
-C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\obj\Debug\LabelPrint.LabelData.resources
 C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\obj\Debug\LabelPrint.vbproj.GenerateResource.Cache
 C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\obj\Debug\LabelPrint.exe.licenses
+C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\obj\Debug\LabelPrint.frmMain.resources
+C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\obj\Debug\LabelPrint.LabelDataR.resources
+C:\Users\user\Documents\20190316_ActiveReport\LabelPrint\LabelPrint\obj\Debug\LabelPrint.LabelDataL.resources

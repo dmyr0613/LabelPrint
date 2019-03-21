@@ -23,6 +23,18 @@ LabelPrint
 	<summary>
  フォームロード
  </summary>
+</member><member name="M:LabelPrint.frmMain.frmMain_Load(System.Object,System.EventArgs)">
+	<summary>
+ フォームロード
+ </summary>
+</member><member name="M:LabelPrint.frmMain.btnClose_Click(System.Object,System.EventArgs)">
+	<summary>
+ 閉じるボタン
+ </summary>
+</member><member name="M:LabelPrint.frmMain.btnPrint_Click(System.Object,System.EventArgs)">
+	<summary>
+ 印刷ボタン
+ </summary>
 </member>
 </members>
 </doc>

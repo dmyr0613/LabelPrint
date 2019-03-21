@@ -82,6 +82,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmViewer.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,7 @@
       <DependentUpon>frmViewer.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="mdlGlobal.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -104,16 +111,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="LabelData.Designer.vb">
-      <DependentUpon>LabelData.vb</DependentUpon>
+    <Compile Include="LabelDataL.Designer.vb">
+      <DependentUpon>LabelDataL.vb</DependentUpon>
     </Compile>
-    <Compile Include="LabelData.vb">
+    <Compile Include="LabelDataL.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LabelDataR.Designer.vb">
+      <DependentUpon>LabelDataR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LabelDataR.vb">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmViewer.resx">
       <DependentUpon>frmViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabelDataR.resx">
+      <DependentUpon>LabelDataR.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -122,8 +141,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="LabelData.resx">
-      <DependentUpon>LabelData.vb</DependentUpon>
+    <EmbeddedResource Include="LabelDataL.resx">
+      <DependentUpon>LabelDataL.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
